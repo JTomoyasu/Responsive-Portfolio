@@ -237,15 +237,27 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media screen 
+@media screen and (max-width:640px)
 {
-  
+  #masthead
+  {
+    position: static;
+  }
+  #sidebar
+  {
+    clear: both;
+    float: none;
+  }
 }
-@media screen 
+@media screen and (min-width:641px) and (max-width:768px)
 {
-  
+  #sidebar
+  {
+    clear: both;
+    float: none;
+  }
 }
-@media screen 
+@media screen and (min-width:769px) and(max-width:980px)
 {
   
 }
